@@ -1,0 +1,40 @@
+html, body {
+	background: #FFFFFF;
+	font-family: Helvetica, Arial, Verdana, sans-serif, Courier;
+	color: #e00b0b;
+}
+
+a {
+	color: #e00b0b;
+	text-decoration: none;
+}
+
+.maintable {
+	width:600px;
+}
+
+.title {
+	font-size: 50px;
+	padding: 5px 5px 0px 5px;
+	font-weight: bold;
+	color : #216bbd;
+}
+
+.question {
+	/*background: #e00b0b;*/
+ 	color: #0d0d0d;
+ 	padding: 10px;
+}
+
+form {
+	padding: 0px;
+	margin: 0px;
+}
+
+.contentCenterDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+}

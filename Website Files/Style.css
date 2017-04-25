@@ -1,0 +1,729 @@
+/* BODY CONTENTS -------------------------------------------------------------------------------------*/
+body {
+    margin: 20px;
+}
+
+/* NAVIGATION BAR ---------------------------------------------*/
+
+.navigationBarContainerDiv{
+    display:block;
+    background-color:#0d0d0d;
+    margin-top:-20px;
+    margin-left:-20px;
+    margin-right:-20px;
+    max-height:170px;
+}
+
+.navigationBarFonts{
+    font-family: "Gotham";
+    font-weight: bold;
+}
+
+.navigationBarLogoContainer{
+    float:left;
+    margin-left:180px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+ /* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: -20px;
+    padding: 6px 16px;
+    padding-left: 12px;
+    overflow: hidden;
+    /*background-color: #0d0d0d;*/
+    max-height: 34px;
+    max-width: 800px;
+    
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+    list-style-type: none;
+    float: left;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    list-style-type: none;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 6px 24px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13.5px;
+    /*font-weight: normal;*/
+}
+
+ul li a.active {
+    list-style-type: none;
+    display: inline-block;
+    color: #eb3e38;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13.5px;
+    max-height: 34px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    list-style-type: none;
+    /*background-color: #0d0d0d;*/
+    color: #eb3e38;
+}
+
+
+/* The current page is shown in this color */
+
+.active {
+    /*background-color: #ffffff;*/
+    /*background-color: #0d0d0d;*/
+
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+    display: none;
+}
+
+
+
+/* END OF NAVIGATION BAR -------------------------------------*/
+
+/* FOOTER ----------------------------------------------------*/
+
+.footerContainerDiv{
+    display:block;
+    background-color:#191919;
+
+    margin-bottom:-20px;
+    margin-left:-20px;
+    margin-right:-20px;
+    /*height:215px;*/
+    height:231px;
+
+}
+
+.footerHeadings{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#ffffff;
+    font-size:13.5px;
+}
+
+
+.footerNormalText{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#979797;
+    font-size:13.5px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+a:link.footerHyperlinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#979797;
+    font-size:13.5px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a:visited.footerHyperlinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#979797;
+    font-size:13.5px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+a:hover.footerHyperlinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#ececec;
+    font-size:13.5px;
+    font-weight: normal;
+    line-height: 20px;
+    transition:0.4s;
+}
+
+.footerCopyrightFonts{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#6f6f6f;
+    font-size:11px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+a:link.footerCopyrightLinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#6f6f6f;
+    font-size:11px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a:visited.footerCopyrightLinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#6f6f6f;
+    font-size:11px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a:hover.footerCopyrightLinks{
+    font-family: "Gotham";
+    font-weight: bold;
+    color:#d5d5d5;
+    font-size:11px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+    transition:0.4s;
+}
+
+.footerLogoContainer{
+    float:left;
+    margin-top:18px;
+    margin-bottom:0px;
+}
+
+.footerLeftSubDiv{
+    display:block;
+    float:left;
+    width:12.5em;
+    margin-top: -10px;
+    margin-left: 20px;
+    text-align: left;
+    /*background-color: #333;*/
+    height:80px;
+}
+
+.footerRightSubDiv{
+    display:block;
+    float:right;
+    width:12.5em;
+    margin-top: -10px;
+    margin-right: 20px;
+    text-align: right;
+    /*background-color: #333;*/
+    height:80px;
+}
+
+.footerHrDiv{
+    /*display:block;*/
+    /*float:left;*/
+    margin-right:20px;
+    /*width:90em;*/
+    
+    
+}
+
+hr.footerHr { 
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footerCopyrightDiv{
+    display:block;
+    /*float:left;*/
+    /*width:90em;*/
+    margin-top: 55px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: left;
+    font-size:10px;
+    /*background-color: #333;*/
+    height:80px;
+}
+
+
+
+/* END OF FOOTER ---------------------------------------------*/
+
+
+
+/* FONT FORMATTING */
+.fontBlack{
+	font-family: "Gotham";
+	color: #0d0d0d;
+}
+
+.fontBlue{
+    font-family: "Gotham";
+    color: #216bbd;
+}
+
+.shoppingCartProductName{
+	font-weight: bold;
+}
+
+.fontRed , .shoppingCartProductPrice{
+	font-family: "Gotham";
+	color: #eb3e38;
+}
+
+.shoppingCartProductPrice{
+	font-weight: bold;
+}
+
+/* PRODUCTS SUB MENU HYPERLINK*/
+a:link.productsSubMenu{
+ color: #0d0d0d;
+ font-family: "Gotham";
+ text-decoration: none;
+}
+a:visited.productsSubMenu{
+ color: #0d0d0d;
+ font-family: "Gotham";
+ text-decoration: none;
+}
+a:hover.productsSubMenu{
+ color: #eb3e38;
+ font-family: "Gotham";
+ text-decoration: none;
+ transition-duration: 0.4s;
+}
+
+/* NAVIGATION BAR LOGIN SIGNUP */
+a:link.navBarUpperText{
+ color: #f2f2f2;
+ font-family: "Gotham";
+ text-decoration: none;
+ font-size: 14px;
+ /*font-weight: bold;*/
+}
+a:visited.navBarUpperText{
+ color: #f2f2f2;
+ font-family: "Gotham";
+ text-decoration: none;
+ font-size: 14px;
+}
+a:hover.navBarUpperText{
+ color: #eb3e38;
+ font-family: "Gotham";
+ text-decoration: none;
+ font-size: 14px;
+ transition-duration: 0.4s;
+}
+
+/* NORMAL HYPERLINK*/
+a:link.hyperlink{
+ color: #216bbd;
+ font-family: "Gotham";
+ text-decoration: none;
+}
+a:visited.hyperlink{
+ color: #216bbd;
+ font-family: "Gotham";
+ text-decoration: none;
+}
+a:hover.hyperlink{
+ color: #eb3e38;
+ font-family: "Gotham";
+ text-decoration: none;
+ transition-duration: 0.4s;
+}
+
+
+/* FORM ELEMENTS & BUTTONS */
+.shoppingCartButton , .commonButton{
+	font-family: "Gotham";
+	background-color: #0d0d0d;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /*margin: 4px 2px;*/
+    margin-bottom: auto;
+    cursor: pointer;
+    border-radius: 4px;
+
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.shoppingCartButton:hover , .commonButton:hover {
+    background-color:#eb3e38;
+}
+
+.checkoutButton{
+    font-family: "Gotham";
+    background-color: #216bbd;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /*margin: 4px 2px;*/
+    margin-bottom: auto;
+    cursor: pointer;
+    border-radius: 4px;
+
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.checkoutButton:hover {
+    background-color:#eb3e38;
+}
+
+input[type=text],input[type=password],input[type=email],textarea,select {
+    font-family: "Gotham";
+    padding: 5px 8px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 1px ;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* DIVS*/
+
+.logosContainerDiv {
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.contentDiv {
+	font-family: "Gotham";
+	color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: left;
+}
+
+.contentCenterDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Used only in login page*/
+.loginContentDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Displaying whether a Logged In User*/
+.loggedInUserDiv {
+    font-family: "Gotham";
+    color: #eb3e38;
+    max-width:1100px;
+    margin: auto;
+    text-align: right;
+    font-weight: normal;
+}
+
+.notLoggedInUserDiv {
+    font-family: "Gotham";
+    max-width:1100px;
+    margin: auto;
+    text-align: right;
+    font-weight: normal;
+}
+
+
+.mailpopupDiv {
+    font-family: "Gotham";
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 700px;
+    /*height: 50%;*/
+    /*padding: 16px;*/
+    /*border: 5px solid #eb3e38;*/
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+
+.mailpopupDetails{
+    display:block;
+    /*float:left;*/
+    max-width:50em;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: left;
+    /*background-color: #EEEEEE;*/
+}
+
+/* MAPS */
+
+.mapContainerDiv {
+    display:inline-block;
+    align-self: left;
+    max-width:1600px;
+    margin: auto;
+}
+
+/* Start of For Product display --------------*/
+.productsContainerDiv {
+	display:inline-block;
+	align-self: left;
+    max-width:1100px;
+    margin: auto;
+}
+
+/* POPUPS */
+.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+
+.shoppingCartProductSummaryPopup {
+    font-family: "Gotham";
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 900px;
+    /*height: 50%;*/
+    /*padding: 16px;*/
+    /*border: 5px solid #eb3e38;*/
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+/* Single Product*/
+.productDiv{
+	display:block;
+	float:left;
+	max-width:12.5em;
+	margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.shoppingCartSummaryContainerDiv{
+	font-family: "Gotham";
+	color: #0d0d0d;
+    max-width:900px;
+    margin: auto;
+    text-align: left;
+}
+
+.shoppingCartSummaryImage{
+	display:block;
+	float:left;
+	/*max-width:12.5em;*/
+	max-width:15em;
+	margin-top: 5px;
+    /*margin-left: 80px;*/
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.shoppingCartSummaryDetails{
+	display:block;
+	float:left;
+	max-width:27em;
+	margin-top: 5px;
+    margin-left: 150px;
+    text-align: left;
+    /*background-color: #EEEEEE;*/
+}
+/* End of For Product display----------------*/
+
+
+/* HOME PAGE SLIDER STYLING */
+
+#sliderFrame, #sliderFrame div {
+    position:relative;
+    top:0px;
+    display:block;
+    box-sizing: content-box;
+    margin:auto;
+}
+
+
+#slider, #slider .sliderInner {
+    width:1000px;height:500px;/* Must be the same size as the slider images */
+    /*border-radius:3px;*/
+}
+
+#slider {
+    background-color:white;
+    /*position:relative;*/
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+}
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    top:470px;
+    /*top:510px;*/
+    text-align:center;
+    background:none;
+    position:relative;
+    z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(Images/Banners/bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 5px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+/* END OF HOME PAGE SLIDER STYLING */
+
+/* COMMENTS AND TESTIMONIALS */
+
+/*star*/
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(Images/comments/star.png) 0 -16px;
+}
+
+
+.photo{
+    background:url(Images/comments/frame.png) no-repeat center;
+    margin-right:6px;
+    position:center;
+    float:center;
+}
+.commentsContainerDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+    line-height: 2px;
+}
+
+.commentsDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+    line-height: 2px;
+}
+
+/* END OF COMMENTS AND TESTIMONIALS */
+
+/* POLL */
+
+.maintable {
+    width:600px;
+}
+
+.title {
+    font-family: "Gotham";
+    font-size: 40px;
+    padding: 5px 5px 0px 5px;
+    font-weight: bold;
+    color : #216bbd;
+}
+
+.question {
+    color: #0d0d0d;
+    padding: 10px;
+    font-family: "Gotham";
+}
+
+
+
+.contentCenterDiv {
+    font-family: "Gotham";
+    color: #0d0d0d;
+    max-width:1100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* END OF POLL
+
+
+
+
